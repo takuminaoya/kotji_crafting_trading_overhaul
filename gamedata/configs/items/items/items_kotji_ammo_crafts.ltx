@@ -1,8 +1,8 @@
 [kotji_ammo_base]:prt_i_ammo
 icons_texture							        	   = ui\ui_kotji_ammo
-description			                                   = st_prt_i_ammo_descr
-inv_name			                                   = st_prt_i_ammo
-inv_name_short			                               = st_prt_i_ammo
+description			                                   = kotji_ammo_base_descr
+inv_name			                                   = kotji_ammo_base
+inv_name_short			                               = kotji_ammo_base
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -16,11 +16,30 @@ auto_attach				                               = false
 snd_on_take								 		       = bolt
 tier                                                   = 1
 
+[kotji_ammo_base_multi]:booster_multi
+$spawn 				                                   = "devices\roubles"
+visual						                           = dynamics\devices\dev_aptechka\dev_aptechka_low.ogf
+icons_texture							        	   = ui\ui_kotji_ammo
+description			                                   = st_sharpening_stones_descr
+inv_name			                                   = st_sharpening_stones
+inv_name_short			                               = st_sharpening_stones
+cost				                                   = 1860
+inv_weight			                                   = 0.276
+empty_weight			                               = 0.06
+inv_grid_width			                               = 1
+inv_grid_height			                               = 1
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 55
+max_uses								               = 4
+
+
 ;------------------------------------------------------------------------------------
 ; Gunpowder Section
 ;------------------------------------------------------------------------------------
 
 [kotji_gunpowder_sm]:kotji_ammo_base
+inv_name			                                   = kotji_gunpowder_sm
+inv_name_short			                               = kotji_gunpowder_sm
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -28,6 +47,8 @@ inv_grid_y			                                   = 5
 cost				                                   = 120
 inv_weight			                                   = 0.01
 [kotji_gunpowder_rf]:kotji_ammo_base
+inv_name			                                   = kotji_gunpowder_rf
+inv_name_short			                               = kotji_gunpowder_rf
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 1
@@ -35,6 +56,8 @@ inv_grid_y			                                   = 5
 cost				                                   = 250
 inv_weight			                                   = 0.01
 [kotji_gunpowder_sg]:kotji_ammo_base
+inv_name			                                   = kotji_gunpowder_sg
+inv_name_short			                               = kotji_gunpowder_sg
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 2
@@ -46,6 +69,8 @@ inv_weight			                                   = 0.01
 ; Bullet & Casing Section - Handgun
 ;------------------------------------------------------------------------------------
 [kotji_hg_fmj]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_hg_fmj
+description			                                   = kotji_ammo_base_fmj_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -53,6 +78,8 @@ inv_grid_y			                                   = 0
 cost				                                   = 100
 inv_weight			                                   = 0.01
 [kotji_hg_mod]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_hg_mod
+description			                                   = kotji_ammo_base_mod_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -60,6 +87,8 @@ inv_grid_y			                                   = 1
 cost				                                   = 120
 inv_weight			                                   = 0.01
 [kotji_hg_ap]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_hg_ap
+description			                                   = kotji_ammo_base_ap_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -67,6 +96,8 @@ inv_grid_y			                                   = 2
 cost				                                   = 160
 inv_weight			                                   = 0.01
 [kotji_casing_hg]:kotji_ammo_base
+inv_name			                                   = kotji_casing_hg
+description			                                   = kotji_ammo_base_casing_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -74,6 +105,8 @@ inv_grid_y			                                   = 3
 cost				                                   = 110
 inv_weight			                                   = 0.01
 [kotji_casing_hg_magnum]:kotji_ammo_base
+inv_name			                                   = kotji_casing_hg_magnum
+description			                                   = kotji_ammo_base_casing_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
@@ -85,6 +118,8 @@ inv_weight			                                   = 0.01
 ; Bullet & Casing Section - Rifle
 ;------------------------------------------------------------------------------------
 [kotji_rf_fmj]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_rf_fmj
+description			                                   = kotji_ammo_base_fmj_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 1
@@ -92,6 +127,8 @@ inv_grid_y			                                   = 0
 cost				                                   = 140
 inv_weight			                                   = 0.01
 [kotji_rf_mod]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_rf_fmj
+description			                                   = kotji_ammo_base_fmj_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 1
@@ -99,6 +136,8 @@ inv_grid_y			                                   = 1
 cost				                                   = 160
 inv_weight			                                   = 0.01
 [kotji_rf_ap]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_rf_fmj
+description			                                   = kotji_ammo_base_fmj_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 1
@@ -106,6 +145,8 @@ inv_grid_y			                                   = 2
 cost				                                   = 180
 inv_weight			                                   = 0.01
 [kotji_casing_rf]:kotji_ammo_base
+inv_name			                                   = kotji_casing_rf
+description			                                   = kotji_ammo_base_casing_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 1
@@ -117,6 +158,8 @@ inv_weight			                                   = 0.01
 ; Bullet & Casing Section - Shotgun
 ;------------------------------------------------------------------------------------
 [kotji_sg_buck]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_sg_fmj
+description			                                   = kotji_ammo_base_buck_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 2
@@ -124,6 +167,8 @@ inv_grid_y			                                   = 0
 cost				                                   = 100
 inv_weight			                                   = 0.01
 [kotji_sg_slug]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_sg_fmj
+description			                                   = kotji_ammo_base_slug_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 2
@@ -131,6 +176,8 @@ inv_grid_y			                                   = 1
 cost				                                   = 110
 inv_weight			                                   = 0.01
 [kotji_sg_bird]:kotji_ammo_base
+inv_name			                                   = kotji_bullet_sg_fmj
+description			                                   = kotji_ammo_base_dart_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 2
@@ -138,6 +185,8 @@ inv_grid_y			                                   = 2
 cost				                                   = 120
 inv_weight			                                   = 0.01
 [kotji_casing_sg]:kotji_ammo_base
+inv_name			                                   = kotji_casing_sg
+description			                                   = kotji_ammo_base_casing_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 2
@@ -150,9 +199,23 @@ inv_weight			                                   = 0.01
 ; Primer Section
 ;------------------------------------------------------------------------------------
 [kotji_primer]:kotji_ammo_base
+inv_name			                                   = kotji_primer
+description			                                   = kotji_ammo_base_primer_descr
 inv_grid_width			                               = 1
 inv_grid_height			                               = 1
 inv_grid_x			                                   = 0
 inv_grid_y			                                   = 6
-cost				                                   = 250
+cost				                                   = 50
 inv_weight			                                   = 0.05
+
+[kotji_primer_box]:kotji_ammo_base_multi
+inv_name			                                   = kotji_primer_box
+description			                                   = kotji_ammo_base_primer_descr
+inv_grid_width			                               = 2
+inv_grid_height			                               = 2
+inv_grid_x			                                   = 3
+inv_grid_y			                                   = 0
+cost				                                   = 3500
+inv_weight			                                   = 2.00
+max_uses								               = 20
+

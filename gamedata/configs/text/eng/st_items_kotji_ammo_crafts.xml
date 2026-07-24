@@ -1,0 +1,143 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 21
+- @ Description: SSS MCM general strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<string id="kotji_ammo_base">
+		<text>Gunpowder</text>
+	</string>
+	<string id="kotji_gunpowder_sm">
+		<text>Gunpowder For Small Caliber</text>
+	</string>
+	<string id="kotji_gunpowder_rf">
+		<text>Gunpowder For Rifle</text>
+	</string>
+	<string id="kotji_gunpowder_sg">
+		<text>Gunpowder For Shotgun</text>
+	</string>
+	<string id="kotji_ammo_base_descr">
+		<text>Gunpowder, also called black powder, is a chemical mixture that burns very rapidly, producing hot gases that can propel objects or create explosive effects.Traditionally, it consists of three main ingredients:\n \n
+
+		%c[ui_gray_3]PROPERTIES:\n
+		- Potassium nitrate (saltpeter) : Supplies oxygen to support rapid burning.\n
+		- Charcoal : Acts as the primary fuel\n
+		- Sulfur : Helps the mixture ignite more easily and burn more efficiently.\n \n
+		</text>
+	</string>
+
+	<!-- Bullet Section -->
+	<!-- HG -->
+	<string id="kotji_bullet_hg_fmj">
+		<text>Fullmetal Jacket Bullet (HG)</text>
+	</string>
+	
+	<string id="kotji_bullet_hg_mod">
+		<text>Special Bullet (HG)</text>
+	</string>
+
+	<string id="kotji_bullet_hg_ap">
+		<text>Armour Piercing Bullet (HG)</text>
+	</string>
+	<!-- HG -->
+	<!-- RF -->
+	<string id="kotji_bullet_rf_fmj">
+		<text>Fullmetal Jacket Bullet (RF)</text>
+	</string>
+	<string id="kotji_bullet_rf_mod">
+		<text>Special Bullet (RF)</text>
+	</string>
+	<string id="kotji_bullet_rf_ap">
+		<text>Armour Piercing Bullet (RF)</text>
+	</string>
+	<!-- RF -->
+	<!-- SG -->
+	<string id="kotji_bullet_sg_fmj">
+		<text>Buckshot Bullet (SG)</text>
+	</string>
+	<string id="kotji_bullet_sg_mod">
+		<text>Slug Bullet (SG)</text>
+	</string>
+	<string id="kotji_bullet_sg_ap">
+		<text>Bird Or Dart Bullet (SG)</text>
+	</string>
+	<!-- SG -->
+	<string id="kotji_ammo_base_fmj_descr">
+		<text>A Full Metal Jacket (FMJ) bullet is a type of projectile where a soft lead core is enclosed by a harder metal jacket, typically made from copper or a copper alloy. The jacket usually covers the sides and nose of the bullet, while the base may or may not be exposed, depending on the design.:\n \n
+
+		%c[ui_gray_3]PROPERTIES:\n
+		- Metal jacket – Reduces barrel fouling, improves feeding reliability, and helps the bullet maintain its shape.\n
+		- Lead core – Provides most of the bullet's mass.\n
+		- Optional exposed base – Many FMJ bullets have a small exposed lead base; some "total metal jacket" (TMJ) bullets completely enclose the lead core.\n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_mod_descr">
+		<text>A Hollow Point (HP) bullet is a projectile with a small cavity (hollow) in the tip. This cavity is designed so that, when the bullet strikes a soft target, the front of the bullet expands or "mushrooms.":\n \n
+
+		%c[ui_gray_3]PROPERTIES:\n
+		- Copper or copper-alloy jacket\n
+		- Lead core.\n
+		- Hollow cavity in the nose.\n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_ap_descr">
+		<text>An Armor-Piercing (AP) bullet is a projectile designed to penetrate hard barriers, such as certain types of armor or other hardened materials, more effectively than a conventional bullet. Rather than relying mainly on expansion or deformation, its effectiveness comes from a very hard, dense core that resists flattening on impact.\n \n
+
+		%c[ui_gray_3]PROPERTIES:\n
+		- Outer jacket – Usually copper or a copper alloy.\n
+		- Hardened penetrator core – Commonly made from hardened steel, tungsten alloy, or (historically) other very dense materials.\n
+		- Optional lead filler – Some designs include lead around the core to help fill the jacket.\n \n
+		</text>
+	</string>
+
+	<string id="kotji_ammo_base_buck_descr">
+		<text>Buckshot is a type of shotgun ammunition that contains multiple large spherical pellets inside a single shell instead of one single projectile. When a shotgun is fired, the shell releases these pellets, which spread out as they travel. The amount of spread depends on the distance and the shotgun's barrel and choke.:\n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_slug_descr">
+		<text>A slug (or shotgun slug) is a single, large projectile fired from a shotgun. Unlike birdshot or buckshot, which contain many pellets, a slug shell contains one solid projectile. \n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_dart_descr">
+		<text>Birdshot is a type of shotgun ammunition that contains many small spherical pellets packed inside a single shotgun shell. \n \n
+		</text>
+	</string>
+	
+	<!-- casing -->
+	<string id="kotji_casing_hg">
+		<text>Casing For Small Caliber
+		</text>
+	</string>
+	<string id="kotji_casing_rf">
+		<text>Casing for Medium and Large Caliber
+		</text>
+	</string>
+	<string id="kotji_casing_sg">
+		<text>Casing For Shotgun Ammunition
+		</text>
+	</string>
+	<string id="kotji_casing_hg_magnum">
+		<text>Casing for Magnum Type Ammunition
+		</text>
+	</string>
+	<string id="kotji_ammo_base_casing_descr">
+		<text>An ammo casing, more accurately called a cartridge case, is the container that holds the components of a cartridge together. It is not the bullet—it's the part that's left behind after the bullet leaves the barrel. \n \n</text>
+	</string>
+
+	<!-- primer -->
+	<string id="kotji_primer">
+		<text>All Purpose Primer</text>
+	</string>
+	<string id="kotji_primer_box">
+		<text>All Purpose Primer 200 Pcs</text>
+	</string>
+	<string id="kotji_ammo_base_primer_descr">
+		<text>A primer is the small ignition component in the base of a cartridge. Its job is to ignite the propellant (typically smokeless powder) when the firearm is fired.The primer does not provide the main force that launches the bullet. Instead, it creates a small, hot flame that ignites the propellant, which then produces the gases that propel the projectile. \n \n</text>
+	</string>
+
+</string_table>
