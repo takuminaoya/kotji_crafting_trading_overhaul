@@ -1,0 +1,54 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 21
+- @ Description: SSS MCM general strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+    <!-- UI Only -->
+    <string id="ui_craft_module_parts">
+        <text>Деталь модуля</text>
+    </string>
+    <string id="ui_craft_module_sight">
+        <text>Прицел</text>
+    </string>
+    <string id="ui_craft_module_scope">
+        <text>Оптический прицел</text>
+    </string>
+    <string id="ui_craft_module_att">
+        <text>Насадка</text>
+    </string>
+    <string id="ui_craft_dovetail">
+        <text>Ласточкин хвост</text>
+    </string>
+    <!-- UI ONLY -->
+
+    <string id="kotji_lens">
+        <text>Линза</text>
+    </string>
+    <string id="kotji_sight_frame">
+        <text>Рама прицела</text>
+    </string>
+    <string id="kotji_scope_frame">
+        <text>Корпус оптического прицела</text>
+    </string>
+    <string id="kotji_att_frame">
+        <text>Корпус насадки</text>
+    </string>
+    <string id="kotji_mobo">
+        <text>Малогабаритная материнская плата</text>
+    </string>
+
+    <string id="kotji_module_frame">
+        <text>Прицел с креплением на рамку (часто коллиматор) крепится непосредственно к рамке оружия (основному корпусу/рукоятке), а не к подвижному затвору.\n \n</text>
+    </string>
+    <string id="kotji_mobo_desc">
+        <text>Малогабаритная материнская плата (часто называемая SFF-платой) — это компактная системная плата, предназначенная для установки в небольшие корпуса ПК, встраиваемые устройства или системы с ограниченным пространством.\n \n</text>
+    </string>
+        <string id="kotji_lens_desc">
+        <text>В самом базовом смысле линза — это деталь из прозрачного материала (стекла, пластика или кристалла) с как минимум одной изогнутой поверхностью. Она работает за счет преломления световых лучей, собирая или рассеивая их при прохождении.\n \n</text>
+    </string>
+</string_table>
