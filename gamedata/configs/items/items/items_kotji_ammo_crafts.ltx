@@ -66,6 +66,35 @@ cost				                                   = 110
 inv_weight			                                   = 0.01
 
 ;------------------------------------------------------------------------------------
+; Gunpowder Package
+;------------------------------------------------------------------------------------
+[kotji_gunpowder_pack_hg]:identity_immunities   
+$spawn 				                               = "devices\roubles"
+use_package$prefetch 							   = 16
+cform						                       = skeleton
+class			        	                       = II_ATTCH
+kind			                                   = i_medical
+visual						                       = dynamics\equipments\medical\item_aptechka.ogf
+cost						                       = 12624
+description					                       = kotji_gunpowder_pack_desc
+inv_name					                       = kotji_gunpowder_pack
+inv_name_short				                       = kotji_gunpowder_pack
+inv_weight					                       = 1.6
+inv_grid_width				                       = 1
+inv_grid_height				                       = 1
+inv_grid_x         			                       = 16
+inv_grid_y         			                       = 66
+upgr_icon_path								 	   = ui\actor_items\ui_actor_items_2
+upgr_icon_x								 	 	   = 0
+upgr_icon_y								 	 	   = 950
+upgr_icon_width						 	 	 	   = 150
+upgr_icon_height						 	 	   = 150
+auto_attach								           = false
+use1_functor         					           = itms_manager.menu_unpack
+use1_action_functor  					           = itms_manager.use_package
+
+
+;------------------------------------------------------------------------------------
 ; Bullet & Casing Section - Handgun
 ;------------------------------------------------------------------------------------
 [kotji_hg_fmj]:kotji_ammo_base
