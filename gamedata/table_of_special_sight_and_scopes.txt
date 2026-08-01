@@ -1,0 +1,10 @@
+-- scope that need nvg
+scope_pn23
+scope_atn
+scope_halo
+-- scope that need thermal
+scope_drs
+-- scope that include laser
+-- sight that include laser
+sight_vzor4
+sight_vzor4s

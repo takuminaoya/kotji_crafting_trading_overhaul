@@ -1,0 +1,23 @@
+-- starter
+wpn_vz82
+wpn_pp93
+wpn_kashtan
+wpn_kedr
+wpn_kiparis
+wpn_ppsh41
+wpn_bizon
+wpn_ar9b
+-- advance
+wpn_uzi
+wpn_pp2000
+wpn_luty
+wpn_vityaz
+wpn_mp5
+wpn_mp40
+wpn_agram
+wpn_ar9
+-- professional
+wpn_p90
+wpn_ump45
+wpn_gepard
+wpn_ar57

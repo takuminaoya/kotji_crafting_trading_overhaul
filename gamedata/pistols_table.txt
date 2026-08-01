@@ -1,0 +1,47 @@
+; 9x18
+wpn_cobalt
+wpn_pm
+wpn_pb
+wpn_fort
+wpn_pernach
+wpn_aps
+
+; 9x19
+wpn_gsh18
+wpn_grach
+wpn_walther
+wpn_sig220
+wpn_hpsa
+wpn_pl15
+wpn_glock
+wpn_cz75
+wpn_beretta
+
+; 762x25
+wpn_tt33
+wpn_cz52
+wpn_m712
+
+; 9x21
+wpn_gyurza
+
+; 45
+wpn_usp
+wpn_fnp45
+wpn_glock21
+wpn_colt1911
+
+; 5.7x28
+wpn_fn57
+
+; .44
+wpn_taurus
+wpn_desert_eagle
+wpn_grizzly
+
+; .357
+wpn_python
+wpn_rex
+
+; PS-12
+wpn_rsh12

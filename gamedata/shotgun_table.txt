@@ -1,0 +1,21 @@
+-- tier 1
+wpn_bm16
+wpn_higgins
+wpn_protecta
+wpn_toz34
+wpn_ks23k
+-- tier 2
+wpn_fort500
+wpn_mossberg590
+wpn_133
+wpn_ks23
+wpn_remington870
+wpn_toz194
+wpn_wimcheaster1300
+-- tier 3
+wpn_benelli
+wpn_derya
+wpn_153
+wpn_saiga12
+wpn_spas12
+wpn_vepr12

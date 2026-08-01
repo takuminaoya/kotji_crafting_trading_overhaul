@@ -24,7 +24,19 @@
 	<string id="ui_craft_dovetail">
 		<text>Dovetail</text>
 	</string>
+	<string id="ui_craft_mags">
+		<text>Magazine</text>
+	</string>
 	<!-- UI ONLY -->
+
+	<!-- Weapons Craft Start -->
+	<string id="ui_craft_ak_family">
+		<text>All AK Family Module</text>
+	</string>
+	<string id="ui_craft_ar_family">
+		<text>All AR/M4/LR Family Module</text>
+	</string>
+	<!-- Weapons Craft End -->
 
 	<string id="kotji_lens">
 		<text>Lens</text>
@@ -48,7 +60,21 @@
 	<string id="kotji_mobo_desc">
 		<text>A small motherboard—often referred to in the tech world as a Small Form Factor (SFF) motherboard—is a compact main circuit board designed to fit inside smaller computer cases, embedded devices, or space-constrained setups.\n \n</text>
 	</string>
-		<string id="kotji_lens_desc">
+	<string id="kotji_lens_desc">
 		<text>At its most basic level, a lens is a piece of transparent material (like glass, plastic, or crystal) with at least one curved surface. It works by refracting (bending) light rays as they pass through it to either focus light together or spread it apart.\n \n</text>
+	</string>
+
+
+	<string id="kotji_nvg_module">
+		<text>Night Vision Gen1 Module</text>
+	</string>
+	<string id="kotji_heat_module">
+		<text>Thermal Vision Module</text>
+	</string>
+	<string id="kotji_nvg_module_desc">
+		<text>A night vision module is an electronic device or component that enables a camera or optical system to see in low-light or near-dark conditions. Depending on the application, it may use different technologies. \n \n</text>
+	</string>
+	<string id="kotji_heat_module_desc">
+		<text>A heat vision module (more accurately called a thermal vision module or thermal imaging module) is a device that detects infrared radiation (heat) emitted by objects instead of relying on visible light. \n \n</text>
 	</string>
 </string_table>
