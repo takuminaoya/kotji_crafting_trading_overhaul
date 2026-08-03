@@ -1,0 +1,72 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 21
+- @ Description: SSS MCM general strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<!-- UI Only -->
+	<string id="kotji_blueprint_handgun">
+		<text>Handgun Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_handgun_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making Handgun
+		</text>
+	</string>
+	<string id="kotji_blueprint_shotgun">
+		<text>Shotgun Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_shotgun_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making Shotgun
+		</text>
+	</string>
+	<string id="kotji_blueprint_submachinegun">
+		<text>SMG (Sub Machine Gun) Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_submachinegun_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making SMG
+		</text>
+	</string>
+	<string id="kotji_blueprint_rifle">
+		<text>Rifle Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_rifle_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making Rifle/Assault Rifle/Battle Rifle
+		</text>
+	</string>
+	<string id="kotji_blueprint_sniper">
+		<text>Sniper Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_sniper_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making Sniper
+		</text>
+	</string>
+	<string id="kotji_blueprint_sniper">
+		<text>Unique/Custom Blueprint</text>
+	</string>
+	<string id="kotji_blueprint_sniper_desc">
+		<text>
+			A blueprint for a firearm refers to a technical drawing, engineering schematic, or digital design file that details the precise dimensions, specifications, geometry, and component layout of a firearm. \n\n
+
+			- For Making Unique/Custom Weapon
+		</text>
+	</string>
+</string_table>

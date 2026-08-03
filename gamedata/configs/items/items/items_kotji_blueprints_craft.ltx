@@ -1,0 +1,546 @@
+; -------------------------------------------------------------------------------------------------
+; Weapon blueprint
+; This is a generalize weapon craft using a blueprint as base, blueprint only drop on enemy based
+; their rank usually
+;
+; - novice, experienced = handgun, shotgun, submachinegun
+; - professional, veteran = rifle, submachinegun
+; - expert, master, legend = rifle, sniper
+; - legend = unique
+;
+; what the material to craft
+; gun = receiver + weapon frame + blueprint + repair_kit
+; for receiver = all weapon part example for pm you need all their part regardless the condition 
+; wpn_pm = prt_w_p_barrel_1 + prt_w_p_trigger_3 + prt_w_p_spring_1
+;--------------------------------------------------------------------------------------------------
+
+[kotji_blueprint_base]:prt_i_paper
+icons_texture							        	   = ui\ui_kotji_modules
+description			                                   = st_prt_i_paper_descr
+inv_name			                                   = st_prt_i_paper
+inv_name_short			                               = st_prt_i_paper
+inv_grid_width			                               = 2
+inv_grid_height			                               = 1
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 0
+cost				                                   = 52
+inv_weight			                                   = 0.01
+attach_angle_offset		                               = -0.287979, 1.560923, 1.544060
+attach_position_offset		                           = 0.096910, -0.013594, 0.107925
+attach_bone_name		                               = bip01_r_hand
+auto_attach				                               = false
+repair_part_bonus	 	                               = 0.01
+snd_on_take								 		       = part
+tier                                                   = 1
+
+[kotji_blueprint_handgun]:kotji_blueprint_base
+description			                                   = kotji_blueprint_handgun_desc
+inv_name			                                   = kotji_blueprint_handgun
+inv_name_short			                               = kotji_blueprint_handgun
+inv_grid_x			                                   = 4
+inv_grid_y			                                   = 0
+
+[kotji_blueprint_shotgun]:kotji_blueprint_base
+description			                                   = kotji_blueprint_shotgun_desc
+inv_name			                                   = kotji_blueprint_shotgun
+inv_name_short			                               = kotji_blueprint_shotgun
+inv_grid_x			                                   = 4
+inv_grid_y			                                   = 1
+
+[kotji_blueprint_submachinegun]:kotji_blueprint_base
+description			                                   = kotji_blueprint_submachinegun_desc
+inv_name			                                   = kotji_blueprint_submachinegun
+inv_name_short			                               = kotji_blueprint_submachinegun
+inv_grid_x			                                   = 4
+inv_grid_y			                                   = 2
+
+[kotji_blueprint_rifle]:kotji_blueprint_base
+description			                                   = kotji_blueprint_rifle_desc
+inv_name			                                   = kotji_blueprint_rifle
+inv_name_short			                               = kotji_blueprint_rifle
+inv_grid_x			                                   = 6
+inv_grid_y			                                   = 0
+
+[kotji_blueprint_sniper]:kotji_blueprint_base
+description			                                   = kotji_blueprint_sniper_desc
+inv_name			                                   = kotji_blueprint_sniper
+inv_name_short			                               = kotji_blueprint_sniper
+inv_grid_x			                                   = 6
+inv_grid_y			                                   = 1
+
+[kotji_blueprint_unique]:kotji_blueprint_base
+description			                                   = kotji_blueprint_unique_desc
+inv_name			                                   = kotji_blueprint_unique
+inv_name_short			                               = kotji_blueprint_unique
+inv_grid_x			                                   = 6
+inv_grid_y			                                   = 1
+
+; -------------------------------------------------------------------------------------------------
+; Weapon Frame
+; -------------------------------------------------------------------------------------------------
+[kotji_frame_base]:prt_i_scrap
+icons_texture							        	   = ui\ui_kotji_modules
+inv_grid_width			                               = 2
+inv_grid_height			                               = 1
+description			                                   = kotji_frame_desc
+tier                                                   = 1
+
+[kotji_frame_handgun]:kotji_frame_base
+inv_name			                                   = kotji_frame_handgun
+inv_name_short			                               = kotji_frame_handgun
+inv_grid_x			                                   = 5
+inv_grid_y			                                   = 5
+
+[kotji_frame_shotgun]:kotji_frame_base
+inv_name			                                   = kotji_frame_shotgun
+inv_name_short			                               = kotji_frame_shotgun
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 6
+
+[kotji_frame_submachinegun]:kotji_frame_base
+inv_name			                                   = kotji_frame_submachinegun
+inv_name_short			                               = kotji_frame_submachinegun
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 5
+
+[kotji_frame_rifle]:kotji_frame_base
+inv_name			                                   = kotji_frame_rifle
+inv_name_short			                               = kotji_frame_rifle
+inv_grid_x			                                   = 2
+inv_grid_y			                                   = 5
+
+[kotji_frame_sniper]:kotji_frame_base
+inv_name			                                   = kotji_frame_sniper
+inv_name_short			                               = kotji_frame_sniper
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 7
+
+[kotji_frame_unique]:kotji_frame_base
+inv_name			                                   = kotji_frame_unique
+inv_name_short			                               = kotji_frame_unique
+inv_grid_x			                                   = 0
+inv_grid_y			                                   = 7
+
+
+; -------------------------------------------------------------------------------------------------
+; Weapon Receiver
+; -------------------------------------------------------------------------------------------------
+[kotji_receiver_base]:prt_i_scrap
+icons_texture							        	   = ui\ui_kotji_modules
+description			                                   = receiver_desc
+inv_name			                                   = st_prt_i_scrap
+inv_name_short			                               = st_prt_i_scrap
+inv_grid_width			                               = 2
+inv_grid_height			                               = 1
+inv_grid_x			                                   = 8
+inv_grid_y			                                   = 0
+cost				                                   = 52
+inv_weight			                                   = 0.5
+attach_angle_offset		                               = -0.287979, 1.560923, 1.544060
+attach_position_offset		                           = 0.096910, -0.013594, 0.107925
+attach_bone_name		                               = bip01_r_hand
+auto_attach				                               = false
+repair_part_bonus	 	                               = 0.01
+snd_on_take								 		       = part
+tier                                                   = 1
+
+
+[kotji_receiver_kobalt]:kotji_receiver_base
+inv_name                                                = kotji_receiver_kobalt
+inv_name_short                                          = kotji_receiver_kobalt
+
+[kotji_receiver_pm]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pm
+inv_name_short                                          = kotji_receiver_pm
+
+[kotji_receiver_spsh44]:kotji_receiver_base
+inv_name                                                = kotji_receiver_spsh44
+inv_name_short                                          = kotji_receiver_spsh44
+
+[kotji_receiver_pb]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pb
+inv_name_short                                          = kotji_receiver_pb
+
+[kotji_receiver_pmm]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pmm
+inv_name_short                                          = kotji_receiver_pmm
+
+[kotji_receiver_fort]:kotji_receiver_base
+inv_name                                                = kotji_receiver_fort
+inv_name_short                                          = kotji_receiver_fort
+
+[kotji_receiver_cz52]:kotji_receiver_base
+inv_name                                                = kotji_receiver_cz52
+inv_name_short                                          = kotji_receiver_cz52
+
+[kotji_receiver_tt33]:kotji_receiver_base
+inv_name                                                = kotji_receiver_tt33
+inv_name_short                                          = kotji_receiver_tt33
+
+[kotji_receiver_gsh18]:kotji_receiver_base
+inv_name                                                = kotji_receiver_gsh18
+inv_name_short                                          = kotji_receiver_gsh18
+
+[kotji_receiver_grach]:kotji_receiver_base
+inv_name                                                = kotji_receiver_grach
+inv_name_short                                          = kotji_receiver_grach
+
+[kotji_receiver_pl15]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pl15
+inv_name_short                                          = kotji_receiver_pl15
+
+[kotji_receiver_rex]:kotji_receiver_base
+inv_name                                                = kotji_receiver_rex
+inv_name_short                                          = kotji_receiver_rex
+
+[kotji_receiver_python]:kotji_receiver_base
+inv_name                                                = kotji_receiver_python
+inv_name_short                                          = kotji_receiver_python
+
+[kotji_receiver_taurus]:kotji_receiver_base
+inv_name                                                = kotji_receiver_taurus
+inv_name_short                                          = kotji_receiver_taurus
+
+[kotji_receiver_marlin]:kotji_receiver_base
+inv_name                                                = kotji_receiver_marlin
+inv_name_short                                          = kotji_receiver_marlin
+
+[kotji_receiver_aps]:kotji_receiver_base
+inv_name                                                = kotji_receiver_aps
+inv_name_short                                          = kotji_receiver_aps
+
+[kotji_receiver_pernach]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pernach
+inv_name_short                                          = kotji_receiver_pernach
+
+[kotji_receiver_m712]:kotji_receiver_base
+inv_name                                                = kotji_receiver_m712
+inv_name_short                                          = kotji_receiver_m712
+
+[kotji_receiver_gyurza]:kotji_receiver_base
+inv_name                                                = kotji_receiver_gyurza
+inv_name_short                                          = kotji_receiver_gyurza
+
+[kotji_receiver_hpsa]:kotji_receiver_base
+inv_name                                                = kotji_receiver_hpsa
+inv_name_short                                          = kotji_receiver_hpsa
+
+[kotji_receiver_cz75]:kotji_receiver_base
+inv_name                                                = kotji_receiver_cz75
+inv_name_short                                          = kotji_receiver_cz75
+
+[kotji_receiver_walther]:kotji_receiver_base
+inv_name                                                = kotji_receiver_walther
+inv_name_short                                          = kotji_receiver_walther
+
+[kotji_receiver_beretta]:kotji_receiver_base
+inv_name                                                = kotji_receiver_beretta
+inv_name_short                                          = kotji_receiver_beretta
+
+[kotji_receiver_desert_eagle]:kotji_receiver_base
+inv_name                                                = kotji_receiver_desert_eagle
+inv_name_short                                          = kotji_receiver_desert_eagle
+
+[kotji_receiver_grizzly]:kotji_receiver_base
+inv_name                                                = kotji_receiver_grizzly
+inv_name_short                                          = kotji_receiver_grizzly
+
+[kotji_receiver_rsh12]:kotji_receiver_base
+inv_name                                                = kotji_receiver_rsh12
+inv_name_short                                          = kotji_receiver_rsh12
+
+[kotji_receiver_ash12]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ash12
+inv_name_short                                          = kotji_receiver_ash12
+
+[kotji_receiver_vssk]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vssk
+inv_name_short                                          = kotji_receiver_vssk
+
+[kotji_receiver_vsv]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vsv
+inv_name_short                                          = kotji_receiver_vsv
+
+[kotji_receiver_omen]:kotji_receiver_base
+inv_name                                                = kotji_receiver_omen
+inv_name_short                                          = kotji_receiver_omen
+
+[kotji_receiver_orsis]:kotji_receiver_base
+inv_name                                                = kotji_receiver_orsis
+inv_name_short                                          = kotji_receiver_orsis
+
+[kotji_receiver_glock]:kotji_receiver_base
+inv_name                                                = kotji_receiver_glock
+inv_name_short                                          = kotji_receiver_glock
+
+[kotji_receiver_glock21]:kotji_receiver_base
+inv_name                                                = kotji_receiver_glock21
+inv_name_short                                          = kotji_receiver_glock21
+
+[kotji_receiver_fn57]:kotji_receiver_base
+inv_name                                                = kotji_receiver_fn57
+inv_name_short                                          = kotji_receiver_fn57
+
+[kotji_receiver_colt1911]:kotji_receiver_base
+inv_name                                                = kotji_receiver_colt1911
+inv_name_short                                          = kotji_receiver_colt1911
+
+[kotji_receiver_sig220]:kotji_receiver_base
+inv_name                                                = kotji_receiver_sig220
+inv_name_short                                          = kotji_receiver_sig220
+
+[kotji_receiver_usp]:kotji_receiver_base
+inv_name                                                = kotji_receiver_usp
+inv_name_short                                          = kotji_receiver_usp
+
+[kotji_receiver_fnp45]:kotji_receiver_base
+inv_name                                                = kotji_receiver_fnp45
+inv_name_short                                          = kotji_receiver_fnp45
+
+[kotji_receiver_ar57]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ar57
+inv_name_short                                          = kotji_receiver_ar57
+
+[kotji_receiver_p90]:kotji_receiver_base
+inv_name                                                = kotji_receiver_p90
+inv_name_short                                          = kotji_receiver_p90
+
+[kotji_receiver_pp93]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pp93
+inv_name_short                                          = kotji_receiver_pp93
+
+[kotji_receiver_kashtan]:kotji_receiver_base
+inv_name                                                = kotji_receiver_kashtan
+inv_name_short                                          = kotji_receiver_kashtan
+
+[kotji_receiver_bizon]:kotji_receiver_base
+inv_name                                                = kotji_receiver_bizon
+inv_name_short                                          = kotji_receiver_bizon
+
+[kotji_receiver_vityaz]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vityaz
+inv_name_short                                          = kotji_receiver_vityaz
+
+[kotji_receiver_mp5]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mp5
+inv_name_short                                          = kotji_receiver_mp5
+
+[kotji_receiver_ump45]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ump45
+inv_name_short                                          = kotji_receiver_ump45
+
+[kotji_receiver_kedr]:kotji_receiver_base
+inv_name                                                = kotji_receiver_kedr
+inv_name_short                                          = kotji_receiver_kedr
+
+[kotji_receiver_kiparis]:kotji_receiver_base
+inv_name                                                = kotji_receiver_kiparis
+inv_name_short                                          = kotji_receiver_kiparis
+
+[kotji_receiver_pp2000]:kotji_receiver_base
+inv_name                                                = kotji_receiver_pp2000
+inv_name_short                                          = kotji_receiver_pp2000
+
+[kotji_receiver_luty]:kotji_receiver_base
+inv_name                                                = kotji_receiver_luty
+inv_name_short                                          = kotji_receiver_luty
+
+[kotji_receiver_vz82]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vz82
+inv_name_short                                          = kotji_receiver_vz82
+
+[kotji_receiver_mp40]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mp40
+inv_name_short                                          = kotji_receiver_mp40
+
+[kotji_receiver_ppsh41]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ppsh41
+inv_name_short                                          = kotji_receiver_ppsh41
+
+[kotji_receiver_uzi]:kotji_receiver_base
+inv_name                                                = kotji_receiver_uzi
+inv_name_short                                          = kotji_receiver_uzi
+
+[kotji_receiver_agram]:kotji_receiver_base
+inv_name                                                = kotji_receiver_agram
+inv_name_short                                          = kotji_receiver_agram
+
+[kotji_receiver_gepard]:kotji_receiver_base
+inv_name                                                = kotji_receiver_gepard
+inv_name_short                                          = kotji_receiver_gepard
+
+[kotji_receiver_veresk]:kotji_receiver_base
+inv_name                                                = kotji_receiver_veresk
+inv_name_short                                          = kotji_receiver_veresk
+
+[kotji_receiver_ar9b]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ar9b
+inv_name_short                                          = kotji_receiver_ar9b
+
+[kotji_receiver_ar9]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ar9
+inv_name_short                                          = kotji_receiver_ar9
+
+[kotji_receiver_toz194]:kotji_receiver_base
+inv_name                                                = kotji_receiver_toz194
+inv_name_short                                          = kotji_receiver_toz194
+
+[kotji_receiver_saiga12]:kotji_receiver_base
+inv_name                                                = kotji_receiver_saiga12
+inv_name_short                                          = kotji_receiver_saiga12
+
+[kotji_receiver_vepr12]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vepr12
+inv_name_short                                          = kotji_receiver_vepr12
+
+[kotji_receiver_spas12]:kotji_receiver_base
+inv_name                                                = kotji_receiver_spas12
+inv_name_short                                          = kotji_receiver_spas12
+
+[kotji_receiver_benelli]:kotji_receiver_base
+inv_name                                                = kotji_receiver_benelli
+inv_name_short                                          = kotji_receiver_benelli
+
+[kotji_receiver_toz34_mark4]:kotji_receiver_base
+inv_name                                                = kotji_receiver_toz34_mark4
+inv_name_short                                          = kotji_receiver_toz34_mark4
+
+[kotji_receiver_wincheaster1300]:kotji_receiver_base
+inv_name                                                = kotji_receiver_wincheaster1300
+inv_name_short                                          = kotji_receiver_wincheaster1300
+
+[kotji_receiver_remington870]:kotji_receiver_base
+inv_name                                                = kotji_receiver_remington870
+inv_name_short                                          = kotji_receiver_remington870
+
+[kotji_receiver_mossberg590]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mossberg590
+inv_name_short                                          = kotji_receiver_mossberg590
+
+[kotji_receiver_fort500]:kotji_receiver_base
+inv_name                                                = kotji_receiver_fort500
+inv_name_short                                          = kotji_receiver_fort500
+
+[kotji_receiver_mp133]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mp133
+inv_name_short                                          = kotji_receiver_mp133
+
+[kotji_receiver_bm16]:kotji_receiver_base
+inv_name                                                = kotji_receiver_bm16
+inv_name_short                                          = kotji_receiver_bm16
+
+[kotji_receiver_toz34]:kotji_receiver_base
+inv_name                                                = kotji_receiver_toz34
+inv_name_short                                          = kotji_receiver_toz34
+
+[kotji_receiver_ks23]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ks23
+inv_name_short                                          = kotji_receiver_ks23
+
+[kotji_receiver_ks23k]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ks23k
+inv_name_short                                          = kotji_receiver_ks23k
+
+[kotji_receiver_protecta]:kotji_receiver_base
+inv_name                                                = kotji_receiver_protecta
+inv_name_short                                          = kotji_receiver_protecta
+
+[kotji_receiver_mp153]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mp153
+inv_name_short                                          = kotji_receiver_mp153
+
+[kotji_receiver_derya]:kotji_receiver_base
+inv_name                                                = kotji_receiver_derya
+inv_name_short                                          = kotji_receiver_derya
+
+[kotji_receiver_higgins]:kotji_receiver_base
+inv_name                                                = kotji_receiver_higgins
+inv_name_short                                          = kotji_receiver_higgins
+
+[kotji_receiver_lr300]:kotji_receiver_base
+inv_name                                                = kotji_receiver_lr300
+inv_name_short                                          = kotji_receiver_lr300
+
+[kotji_receiver_ak101]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ak101
+inv_name_short                                          = kotji_receiver_ak101
+
+[kotji_receiver_ar74]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ar74
+inv_name_short                                          = kotji_receiver_ar74
+
+[kotji_receiver_ak]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ak
+inv_name_short                                          = kotji_receiver_ak
+
+[kotji_receiver_aks]:kotji_receiver_base
+inv_name                                                = kotji_receiver_aks
+inv_name_short                                          = kotji_receiver_aks
+
+[kotji_receiver_ak74u]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ak74u
+inv_name_short                                          = kotji_receiver_ak74u
+
+[kotji_receiver_ak74]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ak74
+inv_name_short                                          = kotji_receiver_ak74
+
+[kotji_receiver_akm]:kotji_receiver_base
+inv_name                                                = kotji_receiver_akm
+inv_name_short                                          = kotji_receiver_akm
+
+[kotji_receiver_akms]:kotji_receiver_base
+inv_name                                                = kotji_receiver_akms
+inv_name_short                                          = kotji_receiver_akms
+
+[kotji_receiver_ak103]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ak103
+inv_name_short                                          = kotji_receiver_ak103
+
+[kotji_receiver_mk47]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mk47
+inv_name_short                                          = kotji_receiver_mk47
+
+[kotji_receiver_val]:kotji_receiver_base
+inv_name                                                = kotji_receiver_val
+inv_name_short                                          = kotji_receiver_val
+
+[kotji_receiver_vintorez]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vintorez
+inv_name_short                                          = kotji_receiver_vintorez
+
+[kotji_receiver_tiss]:kotji_receiver_base
+inv_name                                                = kotji_receiver_tiss
+inv_name_short                                          = kotji_receiver_tiss
+
+[kotji_receiver_saiga308]:kotji_receiver_base
+inv_name                                                = kotji_receiver_saiga308
+inv_name_short                                          = kotji_receiver_saiga308
+
+[kotji_receiver_ar10]:kotji_receiver_base
+inv_name                                                = kotji_receiver_ar10
+inv_name_short                                          = kotji_receiver_ar10
+
+[kotji_receiver_cs5]:kotji_receiver_base
+inv_name                                                = kotji_receiver_cs5
+inv_name_short                                          = kotji_receiver_cs5
+
+[kotji_receiver_vpo123]:kotji_receiver_base
+inv_name                                                = kotji_receiver_vpo123
+inv_name_short                                          = kotji_receiver_vpo123
+
+[kotji_receiver_svd]:kotji_receiver_base
+inv_name                                                = kotji_receiver_svd
+inv_name_short                                          = kotji_receiver_svd
+
+[kotji_receiver_svds]:kotji_receiver_base
+inv_name                                                = kotji_receiver_svds
+inv_name_short                                          = kotji_receiver_svds
+
+[kotji_receiver_svu]:kotji_receiver_base
+inv_name                                                = kotji_receiver_svu
+inv_name_short                                          = kotji_receiver_svu
+
+[kotji_receiver_mosin]:kotji_receiver_base
+inv_name                                                = kotji_receiver_mosin
+inv_name_short                                          = kotji_receiver_mosin

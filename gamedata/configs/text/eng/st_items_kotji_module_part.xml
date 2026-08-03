@@ -77,4 +77,113 @@
 	<string id="kotji_heat_module_desc">
 		<text>A heat vision module (more accurately called a thermal vision module or thermal imaging module) is a device that detects infrared radiation (heat) emitted by objects instead of relying on visible light. \n \n</text>
 	</string>
+
+		<!-- receiver -->
+	 
+<string id="kotji_receiver_kobalt"><text>PSS Vul</text></string>
+<string id="kotji_receiver_pm"><text>Makarov PM</text></string>
+<string id="kotji_receiver_spsh44"><text>Stechkin APS (early)</text></string>
+<string id="kotji_receiver_pb"><text>PB Silent Pistol</text></string>
+<string id="kotji_receiver_pmm"><text>Makarov PMM</text></string>
+<string id="kotji_receiver_fort"><text>Fort-12</text></string>
+<string id="kotji_receiver_cz52"><text>CZ 52</text></string>
+<string id="kotji_receiver_tt33"><text>Tokarev TT-33</text></string>
+<string id="kotji_receiver_gsh18"><text>Gsh-18</text></string>
+<string id="kotji_receiver_grach"><text>MP-443 Grach</text></string>
+<string id="kotji_receiver_pl15"><text>PL-15</text></string>
+<string id="kotji_receiver_rex"><text>Rex Zero 1</text></string>
+<string id="kotji_receiver_python"><text>Colt Python</text></string>
+<string id="kotji_receiver_taurus"><text>Taurus Raging Bull</text></string>
+<string id="kotji_receiver_marlin"><text>Marlin 1895</text></string>
+<string id="kotji_receiver_aps"><text>Stechkin APS</text></string>
+<string id="kotji_receiver_pernach"><text>Fort-17 Pernach</text></string>
+<string id="kotji_receiver_m712"><text>Mauser M712 Schnellfeuer</text></string>
+<string id="kotji_receiver_gyurza"><text>SR-1 Gyurza</text></string>
+<string id="kotji_receiver_hpsa"><text>Tisas Zigana (HPSA)</text></string>
+<string id="kotji_receiver_cz75"><text>CZ 75</text></string>
+<string id="kotji_receiver_walther"><text>Walther P99</text></string>
+<string id="kotji_receiver_beretta"><text>Beretta 92FS</text></string>
+<string id="kotji_receiver_desert_eagle"><text>Desert Eagle</text></string>
+<string id="kotji_receiver_grizzly"><text>Magnum Research Grizzly Win Mag</text></string>
+<string id="kotji_receiver_rsh12"><text>RSh-12</text></string>
+<string id="kotji_receiver_ash12"><text>AS Val (AShch-12/Val family - 12.7mm)</text></string>
+<string id="kotji_receiver_vssk"><text>VSSK Vychlop</text></string>
+<string id="kotji_receiver_vsv"><text>VSS Vintorez (VSV variant)</text></string>
+<string id="kotji_receiver_omen"><text>Lobaev Arms Omen</text></string>
+<string id="kotji_receiver_orsis"><text>Orsis T-5000</text></string>
+<string id="kotji_receiver_glock"><text>Glock 17</text></string>
+<string id="kotji_receiver_glock21"><text>Glock 21</text></string>
+<string id="kotji_receiver_fn57"><text>FN Five-seveN</text></string>
+<string id="kotji_receiver_colt1911"><text>Colt M1911</text></string>
+<string id="kotji_receiver_sig220"><text>SIG Sauer P220</text></string>
+<string id="kotji_receiver_usp"><text>Heckler & Koch USP</text></string>
+<string id="kotji_receiver_fnp45"><text>FN FNP-45</text></string>
+<string id="kotji_receiver_ar57"><text>AR-57</text></string>
+<string id="kotji_receiver_p90"><text>FN P90</text></string>
+<string id="kotji_receiver_pp93"><text>PP-93</text></string>
+<string id="kotji_receiver_kashtan"><text>OTs-02 Kiparis (Kashtan variant)</text></string>
+<string id="kotji_receiver_bizon"><text>PP-19 Bizon</text></string>
+<string id="kotji_receiver_vityaz"><text>PP-19-01 Vityaz</text></string>
+<string id="kotji_receiver_mp5"><text>Heckler & Koch MP5</text></string>
+<string id="kotji_receiver_ump45"><text>Heckler & Koch UMP45</text></string>
+<string id="kotji_receiver_kedr"><text>PP-91 Kedr</text></string>
+<string id="kotji_receiver_kiparis"><text>OTs-02 Kiparis</text></string>
+<string id="kotji_receiver_pp2000"><text>PP-2000</text></string>
+<string id="kotji_receiver_luty"><text>Luty (improvised SMG)</text></string>
+<string id="kotji_receiver_vz82"><text>Škorpion vz. 82</text></string>
+<string id="kotji_receiver_mp40"><text>MP 40</text></string>
+<string id="kotji_receiver_ppsh41"><text>PPSh-41</text></string>
+<string id="kotji_receiver_uzi"><text>IMI Uzi</text></string>
+<string id="kotji_receiver_agram"><text>Agram 2000</text></string>
+<string id="kotji_receiver_gepard"><text>Gepard (SMG)</text></string>
+<string id="kotji_receiver_veresk"><text>9A-91 Veresk (SR-2 Veresk)</text></string>
+<string id="kotji_receiver_ar9b"><text>AR-9 (Buffer tube variant)</text></string>
+<string id="kotji_receiver_ar9"><text>AR-9</text></string>
+<string id="kotji_receiver_toz194"><text>TOZ-194</text></string>
+<string id="kotji_receiver_saiga12"><text>Saiga-12</text></string>
+<string id="kotji_receiver_vepr12"><text>Vepr-12</text></string>
+<string id="kotji_receiver_spas12"><text>Franchi SPAS-12</text></string>
+<string id="kotji_receiver_benelli"><text>Benelli M4</text></string>
+<string id="kotji_receiver_toz34_mark4"><text>TOZ-34 (Mark IV)</text></string>
+<string id="kotji_receiver_wincheaster1300"><text>Winchester 1300</text></string>
+<string id="kotji_receiver_remington870"><text>Remington 870</text></string>
+<string id="kotji_receiver_mossberg590"><text>Mossberg 590</text></string>
+<string id="kotji_receiver_fort500"><text>Fort-500</text></string>
+<string id="kotji_receiver_mp133"><text>MP-133</text></string>
+<string id="kotji_receiver_bm16"><text>IZh BM-16</text></string>
+<string id="kotji_receiver_toz34"><text>TOZ-34</text></string>
+<string id="kotji_receiver_ks23"><text>KS-23</text></string>
+<string id="kotji_receiver_ks23k"><text>KS-23K (Drozd)</text></string>
+<string id="kotji_receiver_protecta"><text>Armsel Protecta</text></string>
+<string id="kotji_receiver_mp153"><text>MP-153</text></string>
+<string id="kotji_receiver_derya"><text>Derya MK-12</text></string>
+<string id="kotji_receiver_higgins"><text>Hawk 981 (Higgins)</text></string>
+<string id="kotji_receiver_lr300"><text>LR-300</text></string>
+<string id="kotji_receiver_ak101"><text>AK-101</text></string>
+<string id="kotji_receiver_ar74"><text>AR-74 (AR-15 in 5.45x39)</text></string>
+<string id="kotji_receiver_ak"><text>AK-47</text></string>
+<string id="kotji_receiver_aks"><text>AKS-47</text></string>
+<string id="kotji_receiver_ak74u"><text>AKS-74U</text></string>
+<string id="kotji_receiver_ak74"><text>AK-74</text></string>
+<string id="kotji_receiver_akm"><text>AKM</text></string>
+<string id="kotji_receiver_akms"><text>AKMS</text></string>
+<string id="kotji_receiver_ak103"><text>AK-103</text></string>
+<string id="kotji_receiver_mk47"><text>CZ Bren 2 (Mk47 Mutant)</text></string>
+<string id="kotji_receiver_val"><text>AS Val</text></string>
+<string id="kotji_receiver_vintorez"><text>VSS Vintorez</text></string>
+<string id="kotji_receiver_tiss"><text>TISS (suppressed AK variant)</text></string>
+<string id="kotji_receiver_saiga308"><text>Saiga-308</text></string>
+<string id="kotji_receiver_ar10"><text>ArmaLite AR-10</text></string>
+<string id="kotji_receiver_cs5"><text>CheyTac CS5 (Intervention-style)</text></string>
+<string id="kotji_receiver_vpo123"><text>VPO-123 (Saiga-based)</text></string>
+<string id="kotji_receiver_svd"><text>Dragunov SVD</text></string>
+<string id="kotji_receiver_svds"><text>SVDS (folding stock Dragunov)</text></string>
+<string id="kotji_receiver_svu"><text>SVU (bullpup Dragunov)</text></string>
+<string id="kotji_receiver_mosin"><text>Mosin-Nagant</text></string>
+
+	<string id="receiver_desc">
+		<text>
+			In firearms, the receiver (often called the frame on handguns) is the central component that binds all other parts of the firearm together. It acts as the structural "backbone" or chassis of the gun and houses the essential operating mechanisms required for firing. \n\n
+		</text>
+	</string>
 </string_table>

@@ -8,47 +8,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <string_table>
-    <!-- UI Only -->
-    <string id="ui_craft_module_parts">
-        <text>Деталь модуля</text>
-    </string>
-    <string id="ui_craft_module_sight">
-        <text>Прицел</text>
-    </string>
-    <string id="ui_craft_module_scope">
-        <text>Оптический прицел</text>
-    </string>
-    <string id="ui_craft_module_att">
-        <text>Насадка</text>
-    </string>
-    <string id="ui_craft_dovetail">
-        <text>Ласточкин хвост</text>
-    </string>
-    <!-- UI ONLY -->
+	<!-- UI Only -->
+	<string id="ui_craft_module_parts">
+		<text>Module Part</text>
+	</string>
+	<string id="ui_craft_module_sight">
+		<text>Sight</text>
+	</string>
+	<string id="ui_craft_module_scope">
+		<text>Scope</text>
+	</string>
+	<string id="ui_craft_module_att">
+		<text>Attachment</text>
+	</string>
+	<string id="ui_craft_dovetail">
+		<text>Dovetail</text>
+	</string>
+	<string id="ui_craft_mags">
+		<text>Magazine</text>
+	</string>
+	<!-- UI ONLY -->
 
-    <string id="kotji_lens">
-        <text>Линза</text>
-    </string>
-    <string id="kotji_sight_frame">
-        <text>Рама прицела</text>
-    </string>
-    <string id="kotji_scope_frame">
-        <text>Корпус оптического прицела</text>
-    </string>
-    <string id="kotji_att_frame">
-        <text>Корпус насадки</text>
-    </string>
-    <string id="kotji_mobo">
-        <text>Малогабаритная материнская плата</text>
-    </string>
+	<!-- Weapons Craft Start -->
+	<string id="ui_craft_ak_family">
+		<text>All AK Family Module</text>
+	</string>
+	<string id="ui_craft_ar_family">
+		<text>All AR/M4/LR Family Module</text>
+	</string>
+	<!-- Weapons Craft End -->
 
-    <string id="kotji_module_frame">
-        <text>Прицел с креплением на рамку (часто коллиматор) крепится непосредственно к рамке оружия (основному корпусу/рукоятке), а не к подвижному затвору.\n \n</text>
-    </string>
-    <string id="kotji_mobo_desc">
-        <text>Малогабаритная материнская плата (часто называемая SFF-платой) — это компактная системная плата, предназначенная для установки в небольшие корпуса ПК, встраиваемые устройства или системы с ограниченным пространством.\n \n</text>
-    </string>
-        <string id="kotji_lens_desc">
-        <text>В самом базовом смысле линза — это деталь из прозрачного материала (стекла, пластика или кристалла) с как минимум одной изогнутой поверхностью. Она работает за счет преломления световых лучей, собирая или рассеивая их при прохождении.\n \n</text>
-    </string>
+	<string id="kotji_lens">
+		<text>Lens</text>
+	</string>
+	<string id="kotji_sight_frame">
+		<text>Sight Frame</text>
+	</string>
+	<string id="kotji_scope_frame">
+		<text>Scope Frame</text>
+	</string>
+	<string id="kotji_att_frame">
+		<text>Attachment Frame</text>
+	</string>
+	<string id="kotji_mobo">
+		<text>Small Motherboard</text>
+	</string>
+
+	<string id="kotji_module_frame">
+		<text>A frame-mounted sight (often a red dot optic) is attached directly to the firearm's frame (the main body/grip area) rather than to the moving slide.\n \n</text>
+	</string>
+	<string id="kotji_mobo_desc">
+		<text>A small motherboard—often referred to in the tech world as a Small Form Factor (SFF) motherboard—is a compact main circuit board designed to fit inside smaller computer cases, embedded devices, or space-constrained setups.\n \n</text>
+	</string>
+	<string id="kotji_lens_desc">
+		<text>At its most basic level, a lens is a piece of transparent material (like glass, plastic, or crystal) with at least one curved surface. It works by refracting (bending) light rays as they pass through it to either focus light together or spread it apart.\n \n</text>
+	</string>
+
+
+	<string id="kotji_nvg_module">
+		<text>Night Vision Gen1 Module</text>
+	</string>
+	<string id="kotji_heat_module">
+		<text>Thermal Vision Module</text>
+	</string>
+	<string id="kotji_nvg_module_desc">
+		<text>A night vision module is an electronic device or component that enables a camera or optical system to see in low-light or near-dark conditions. Depending on the application, it may use different technologies. \n \n</text>
+	</string>
+	<string id="kotji_heat_module_desc">
+		<text>A heat vision module (more accurately called a thermal vision module or thermal imaging module) is a device that detects infrared radiation (heat) emitted by objects instead of relying on visible light. \n \n</text>
+	</string>
+
+		<!-- receiver -->
+	 
+	<string id="kotji_receiver_kobalt">PSS Vul</string>
+	<string id="kotji_receiver_pm">Makarov PM</string>
+	<string id="kotji_receiver_spsh44">Stechkin APS (early)</string>
+	<string id="kotji_receiver_pb">PB Silent Pistol</string>
+	<string id="kotji_receiver_pmm">Makarov PMM</string>
+	<string id="kotji_receiver_fort">Fort-12</string>
+	<string id="kotji_receiver_cz52">CZ 52</string>
+	<string id="kotji_receiver_tt33">Tokarev TT-33</string>
+	<string id="kotji_receiver_gsh18">Gsh-18</string>
+	<string id="kotji_receiver_grach">MP-443 Grach</string>
+	<string id="kotji_receiver_pl15">PL-15</string>
+	<string id="kotji_receiver_rex">Rex Zero 1</string>
+	<string id="kotji_receiver_python">Colt Python</string>
+	<string id="kotji_receiver_taurus">Taurus Raging Bull</string>
+	<string id="kotji_receiver_marlin">Marlin 1895</string>
+	<string id="kotji_receiver_aps">Stechkin APS</string>
+	<string id="kotji_receiver_pernach">Fort-17 Pernach</string>
+	<string id="kotji_receiver_m712">Mauser M712 Schnellfeuer</string>
+	<string id="kotji_receiver_gyurza">SR-1 Gyurza</string>
+	<string id="kotji_receiver_hpsa">Tisas Zigana (HPSA)</string>
+	<string id="kotji_receiver_cz75">CZ 75</string>
+	<string id="kotji_receiver_walther">Walther P99</string>
+	<string id="kotji_receiver_beretta">Beretta 92FS</string>
+	<string id="kotji_receiver_desert_eagle">Desert Eagle</string>
+	<string id="kotji_receiver_grizzly">Magnum Research Grizzly Win Mag</string>
+	<string id="kotji_receiver_rsh12">RSh-12</string>
+	<string id="kotji_receiver_ash12">AS Val (AShch-12/Val family - 12.7mm)</string>
+	<string id="kotji_receiver_vssk">VSSK Vychlop</string>
+	<string id="kotji_receiver_vsv">VSS Vintorez (VSV variant)</string>
+	<string id="kotji_receiver_omen">Lobaev Arms Omen</string>
+	<string id="kotji_receiver_orsis">Orsis T-5000</string>
+	<string id="kotji_receiver_glock">Glock 17</string>
+	<string id="kotji_receiver_glock21">Glock 21</string>
+	<string id="kotji_receiver_fn57">FN Five-seveN</string>
+	<string id="kotji_receiver_colt1911">Colt M1911</string>
+	<string id="kotji_receiver_sig220">SIG Sauer P220</string>
+	<string id="kotji_receiver_usp">Heckler & Koch USP</string>
+	<string id="kotji_receiver_fnp45">FN FNP-45</string>
+	<string id="kotji_receiver_ar57">AR-57</string>
+	<string id="kotji_receiver_p90">FN P90</string>
+	<string id="kotji_receiver_pp93">PP-93</string>
+	<string id="kotji_receiver_kashtan">OTs-02 Kiparis (Kashtan variant)</string>
+	<string id="kotji_receiver_bizon">PP-19 Bizon</string>
+	<string id="kotji_receiver_vityaz">PP-19-01 Vityaz</string>
+	<string id="kotji_receiver_mp5">Heckler & Koch MP5</string>
+	<string id="kotji_receiver_ump45">Heckler & Koch UMP45</string>
+	<string id="kotji_receiver_kedr">PP-91 Kedr</string>
+	<string id="kotji_receiver_kiparis">OTs-02 Kiparis</string>
+	<string id="kotji_receiver_pp2000">PP-2000</string>
+	<string id="kotji_receiver_luty">Luty (improvised SMG)</string>
+	<string id="kotji_receiver_vz82">Škorpion vz. 82</string>
+	<string id="kotji_receiver_mp40">MP 40</string>
+	<string id="kotji_receiver_ppsh41">PPSh-41</string>
+	<string id="kotji_receiver_uzi">IMI Uzi</string>
+	<string id="kotji_receiver_agram">Agram 2000</string>
+	<string id="kotji_receiver_gepard">Gepard (SMG)</string>
+	<string id="kotji_receiver_veresk">9A-91 Veresk (SR-2 Veresk)</string>
+	<string id="kotji_receiver_ar9b">AR-9 (Buffer tube variant)</string>
+	<string id="kotji_receiver_ar9">AR-9</string>
+	<string id="kotji_receiver_toz194">TOZ-194</string>
+	<string id="kotji_receiver_saiga12">Saiga-12</string>
+	<string id="kotji_receiver_vepr12">Vepr-12</string>
+	<string id="kotji_receiver_spas12">Franchi SPAS-12</string>
+	<string id="kotji_receiver_benelli">Benelli M4</string>
+	<string id="kotji_receiver_toz34_mark4">TOZ-34 (Mark IV)</string>
+	<string id="kotji_receiver_wincheaster1300">Winchester 1300</string>
+	<string id="kotji_receiver_remington870">Remington 870</string>
+	<string id="kotji_receiver_mossberg590">Mossberg 590</string>
+	<string id="kotji_receiver_fort500">Fort-500</string>
+	<string id="kotji_receiver_mp133">MP-133</string>
+	<string id="kotji_receiver_bm16">IZh BM-16</string>
+	<string id="kotji_receiver_toz34">TOZ-34</string>
+	<string id="kotji_receiver_ks23">KS-23</string>
+	<string id="kotji_receiver_ks23k">KS-23K (Drozd)</string>
+	<string id="kotji_receiver_protecta">Armsel Protecta</string>
+	<string id="kotji_receiver_mp153">MP-153</string>
+	<string id="kotji_receiver_derya">Derya MK-12</string>
+	<string id="kotji_receiver_higgins">Hawk 981 (Higgins)</string>
+	<string id="kotji_receiver_lr300">LR-300</string>
+	<string id="kotji_receiver_ak101">AK-101</string>
+	<string id="kotji_receiver_ar74">AR-74 (AR-15 in 5.45x39)</string>
+	<string id="kotji_receiver_ak">AK-47</string>
+	<string id="kotji_receiver_aks">AKS-47</string>
+	<string id="kotji_receiver_ak74u">AKS-74U</string>
+	<string id="kotji_receiver_ak74">AK-74</string>
+	<string id="kotji_receiver_akm">AKM</string>
+	<string id="kotji_receiver_akms">AKMS</string>
+	<string id="kotji_receiver_ak103">AK-103</string>
+	<string id="kotji_receiver_mk47">CZ Bren 2 (Mk47 Mutant)</string>
+	<string id="kotji_receiver_val">AS Val</string>
+	<string id="kotji_receiver_vintorez">VSS Vintorez</string>
+	<string id="kotji_receiver_tiss">TISS (suppressed AK variant)</string>
+	<string id="kotji_receiver_saiga308">Saiga-308</string>
+	<string id="kotji_receiver_ar10">ArmaLite AR-10</string>
+	<string id="kotji_receiver_cs5">CheyTac CS5 (Intervention-style)</string>
+	<string id="kotji_receiver_vpo123">VPO-123 (Saiga-based)</string>
+	<string id="kotji_receiver_svd">Dragunov SVD</string>
+	<string id="kotji_receiver_svds">SVDS (folding stock Dragunov)</string>
+	<string id="kotji_receiver_svu">SVU (bullpup Dragunov)</string>
+	<string id="kotji_receiver_mosin">Mosin-Nagant</string>
+
+	<string id="receiver_desc">
+		<text>
+			In firearms, the receiver (often called the frame on handguns) is the central component that binds all other parts of the firearm together. It acts as the structural "backbone" or chassis of the gun and houses the essential operating mechanisms required for firing. \n\n
+		</text>
+	</string>
 </string_table>

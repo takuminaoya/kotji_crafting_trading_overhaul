@@ -9,135 +9,135 @@
 
 <string_table>
 
-    <string id="kotji_ammo_base">
-        <text>Порох</text>
-    </string>
-    <string id="kotji_gunpowder_sm">
-        <text>Порох для малого калибра</text>
-    </string>
-    <string id="kotji_gunpowder_rf">
-        <text>Винтовочный порох</text>
-    </string>
-    <string id="kotji_gunpowder_sg">
-        <text>Порох для дробовиков</text>
-    </string>
-    <string id="kotji_ammo_base_descr">
-        <text>Порох, также называемый дымным порохом — это химическая смесь, которая быстро сгорает, выделяя горячие газы, способные выталкивать снаряды или создавать взрывной эффект. Традиционно состоит из трех основных компонентов:\n \n
+	<string id="kotji_ammo_base">
+		<text>Gunpowder</text>
+	</string>
+	<string id="kotji_gunpowder_sm">
+		<text>Gunpowder For Small Caliber</text>
+	</string>
+	<string id="kotji_gunpowder_rf">
+		<text>Gunpowder For Rifle</text>
+	</string>
+	<string id="kotji_gunpowder_sg">
+		<text>Gunpowder For Shotgun</text>
+	</string>
+	<string id="kotji_ammo_base_descr">
+		<text>Gunpowder, also called black powder, is a chemical mixture that burns very rapidly, producing hot gases that can propel objects or create explosive effects.Traditionally, it consists of three main ingredients:\n \n
 
-        %c[ui_gray_3]СВОЙСТВА:\n
-        - Нитрат калия (селитра) : Поставляет кислород для поддержания быстрого горения.\n
-        - Древесный уголь : Служит основным топливом.\n
-        - Сера : Помогает смеси легче воспламеняться и гореть эффективнее.\n \n
-        </text>
-    </string>
+		%c[ui_gray_3]PROPERTIES:\n
+		- Potassium nitrate (saltpeter) : Supplies oxygen to support rapid burning.\n
+		- Charcoal : Acts as the primary fuel\n
+		- Sulfur : Helps the mixture ignite more easily and burn more efficiently.\n \n
+		</text>
+	</string>
 
-    <!-- Bullet Section -->
-    <!-- HG -->
-    <string id="kotji_bullet_hg_fmj">
-        <text>Оболочечная пуля (ПП)</text>
-    </string>
-    
-    <string id="kotji_bullet_hg_mod">
-        <text>Специальная пуля (ПП)</text>
-    </string>
+	<!-- Bullet Section -->
+	<!-- HG -->
+	<string id="kotji_bullet_hg_fmj">
+		<text>Fullmetal Jacket Bullet (HG)</text>
+	</string>
+	
+	<string id="kotji_bullet_hg_mod">
+		<text>Special Bullet (HG)</text>
+	</string>
 
-    <string id="kotji_bullet_hg_ap">
-        <text>Бронебойная пуля (ПП)</text>
-    </string>
-    <!-- HG -->
-    <!-- RF -->
-    <string id="kotji_bullet_rf_fmj">
-        <text>Оболочечная пуля (ВИНТ)</text>
-    </string>
-    <string id="kotji_bullet_rf_mod">
-        <text>Специальная пуля (ВИНТ)</text>
-    </string>
-    <string id="kotji_bullet_rf_ap">
-        <text>Бронебойная пуля (ВИНТ)</text>
-    </string>
-    <!-- RF -->
-    <!-- SG -->
-    <string id="kotji_bullet_sg_fmj">
-        <text>Картечь (ДРОБ)</text>
-    </string>
-    <string id="kotji_bullet_sg_mod">
-        <text>Охотничья пуля (ДРОБ)</text>
-    </string>
-    <string id="kotji_bullet_sg_ap">
-        <text>Дробь или дротик (ДРОБ)</text>
-    </string>
-    <!-- SG -->
-    <string id="kotji_ammo_base_fmj_descr">
-        <text>Оболочечная пуля (FMJ) — это тип снаряда, в котором мягкий свинцовый сердечник заключен в более твердую металлическую оболочку, обычно из меди или медного сплава. Оболочка обычно покрывает боковые стороны и носовую часть пули, а донце может оставаться открытым в зависимости от конструкции.:\n \n
+	<string id="kotji_bullet_hg_ap">
+		<text>Armour Piercing Bullet (HG)</text>
+	</string>
+	<!-- HG -->
+	<!-- RF -->
+	<string id="kotji_bullet_rf_fmj">
+		<text>Fullmetal Jacket Bullet (RF)</text>
+	</string>
+	<string id="kotji_bullet_rf_mod">
+		<text>Special Bullet (RF)</text>
+	</string>
+	<string id="kotji_bullet_rf_ap">
+		<text>Armour Piercing Bullet (RF)</text>
+	</string>
+	<!-- RF -->
+	<!-- SG -->
+	<string id="kotji_bullet_sg_fmj">
+		<text>Buckshot Bullet (SG)</text>
+	</string>
+	<string id="kotji_bullet_sg_mod">
+		<text>Slug Bullet (SG)</text>
+	</string>
+	<string id="kotji_bullet_sg_ap">
+		<text>Bird Or Dart Bullet (SG)</text>
+	</string>
+	<!-- SG -->
+	<string id="kotji_ammo_base_fmj_descr">
+		<text>A Full Metal Jacket (FMJ) bullet is a type of projectile where a soft lead core is enclosed by a harder metal jacket, typically made from copper or a copper alloy. The jacket usually covers the sides and nose of the bullet, while the base may or may not be exposed, depending on the design.:\n \n
 
-        %c[ui_gray_3]СВОЙСТВА:\n
-        - Металлическая оболочка — Снижает освинцевание ствола, повышает надежность подачи и помогает пуле сохранять форму.\n
-        - Свинцовый сердечник — Обеспечивает основную массу пули.\n
-        - Открытое донце (опционально) — Многие пули FMJ имеют небольшое открытое свинцовое донце; некоторые пули с полной оболочкой (TMJ) полностью закрывают свинцовый сердечник.\n \n
-        </text>
-    </string>
-    <string id="kotji_ammo_base_mod_descr">
-        <text>Экспансивная пуля (HP) — это снаряд с небольшой полостью (выемкой) в носовой части. Эта полость предназначена для того, чтобы при попадании в мягкую цель передняя часть пули раскрывалась или «плющилась»:\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		- Metal jacket – Reduces barrel fouling, improves feeding reliability, and helps the bullet maintain its shape.\n
+		- Lead core – Provides most of the bullet's mass.\n
+		- Optional exposed base – Many FMJ bullets have a small exposed lead base; some "total metal jacket" (TMJ) bullets completely enclose the lead core.\n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_mod_descr">
+		<text>A Hollow Point (HP) bullet is a projectile with a small cavity (hollow) in the tip. This cavity is designed so that, when the bullet strikes a soft target, the front of the bullet expands or "mushrooms.":\n \n
 
-        %c[ui_gray_3]СВОЙСТВА:\n
-        - Медная или медно-сплавная оболочка\n
-        - Свинцовый сердечник.\n
-        - Экспансивная выемка в носовой части.\n
-        </text>
-    </string>
-    <string id="kotji_ammo_base_ap_descr">
-        <text>Бронебойная пуля (AP) — это снаряд, предназначенный для пробития твердых преград, таких как определенные типы брони или другие укрепленные материалы, более эффективно, чем стандартная пуля. Вместо того чтобы полагаться на расширение или деформацию, ее эффективность обеспечивает очень твердый и плотный сердечник, устойчивый к сплющиванию при ударе.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		- Copper or copper-alloy jacket\n
+		- Lead core.\n
+		- Hollow cavity in the nose.\n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_ap_descr">
+		<text>An Armor-Piercing (AP) bullet is a projectile designed to penetrate hard barriers, such as certain types of armor or other hardened materials, more effectively than a conventional bullet. Rather than relying mainly on expansion or deformation, its effectiveness comes from a very hard, dense core that resists flattening on impact.\n \n
 
-        %c[ui_gray_3]СВОЙСТВА:\n
-        - Внешняя оболочка — Обычно из меди или медного сплава.\n
-        - Закаленный бронебойный сердечник — Обычно изготавливается из закаленной стали, вольфрамового сплава или других сверхплотных материалов.\n
-        - Свинцовая рубашка (опционально) — В некоторых конструкциях свинец используется вокруг сердечника для заполнения оболочки.\n \n
-        </text>
-    </string>
+		%c[ui_gray_3]PROPERTIES:\n
+		- Outer jacket – Usually copper or a copper alloy.\n
+		- Hardened penetrator core – Commonly made from hardened steel, tungsten alloy, or (historically) other very dense materials.\n
+		- Optional lead filler – Some designs include lead around the core to help fill the jacket.\n \n
+		</text>
+	</string>
 
-    <string id="kotji_ammo_base_buck_descr">
-        <text>Картечь — это тип патронов для дробовика, содержащий несколько крупных сферических дробин внутри одной гильзы вместо одного снаряда. При выстреле гильза выпускает эти дробины, которые рассеиваются в полете. Степень рассеивания зависит от расстояния, длины ствола и дульного сужения.:\n \n
-        </text>
-    </string>
-    <string id="kotji_ammo_base_slug_descr">
-        <text>Пуля для дробовика — это крупный одиночный снаряд, выстреливаемый из гладкоствольного оружия. В отличие от дроби или картечи, которые содержат множество поражающих элементов, пулевой патрон содержит один сплошной снаряд.\n \n
-        </text>
-    </string>
-    <string id="kotji_ammo_base_dart_descr">
-        <text>Дробь — это тип патронов для дробовика, содержащий множество мелких сферических дробинок, упакованных внутри одной гильзы.\n \n
-        </text>
-    </string>
-    
-    <!-- casing -->
-    <string id="kotji_casing_hg">
-        <text>Гильзы для малого калибра
-        </text>
-    </string>
-    <string id="kotji_casing_rf">
-        <text>Гильзы для среднего и крупного калибра
-        </text>
-    </string>
-    <string id="kotji_casing_sg">
-        <text>Гильзы для гладкоствольных патронов
-        </text>
-    </string>
-    <string id="kotji_casing_hg_magnum">
-        <text>Гильзы для патронов класса «Магнум»
-        </text>
-    </string>
-    <string id="kotji_ammo_base_casing_descr">
-        <text>Оружейная гильза — это емкость, удерживающая вместе все компоненты патрона. Это не пуля, а та часть, которая остается после того, как пуля покидает ствол.\n \n</text>
-    </string>
+	<string id="kotji_ammo_base_buck_descr">
+		<text>Buckshot is a type of shotgun ammunition that contains multiple large spherical pellets inside a single shell instead of one single projectile. When a shotgun is fired, the shell releases these pellets, which spread out as they travel. The amount of spread depends on the distance and the shotgun's barrel and choke.:\n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_slug_descr">
+		<text>A slug (or shotgun slug) is a single, large projectile fired from a shotgun. Unlike birdshot or buckshot, which contain many pellets, a slug shell contains one solid projectile. \n \n
+		</text>
+	</string>
+	<string id="kotji_ammo_base_dart_descr">
+		<text>Birdshot is a type of shotgun ammunition that contains many small spherical pellets packed inside a single shotgun shell. \n \n
+		</text>
+	</string>
+	
+	<!-- casing -->
+	<string id="kotji_casing_hg">
+		<text>Casing For Small Caliber
+		</text>
+	</string>
+	<string id="kotji_casing_rf">
+		<text>Casing for Medium and Large Caliber
+		</text>
+	</string>
+	<string id="kotji_casing_sg">
+		<text>Casing For Shotgun Ammunition
+		</text>
+	</string>
+	<string id="kotji_casing_hg_magnum">
+		<text>Casing for Magnum Type Ammunition
+		</text>
+	</string>
+	<string id="kotji_ammo_base_casing_descr">
+		<text>An ammo casing, more accurately called a cartridge case, is the container that holds the components of a cartridge together. It is not the bullet—it's the part that's left behind after the bullet leaves the barrel. \n \n</text>
+	</string>
 
-    <!-- primer -->
-    <string id="kotji_primer">
-        <text>Универсальный капсюль</text>
-    </string>
-    <string id="kotji_primer_box">
-        <text>Универсальные капсюли (200 шт.)</text>
-    </string>
-    <string id="kotji_ammo_base_primer_descr">
-        <text>Капсюль — это небольшой воспламенительный элемент в донце гильзы. Его задача — воспламенить пороховой заряд (обычно бездымный порох) при выстреле. Капсюль не создает основную силу, выталкивающую пулю. Вместо этого он создает короткую горячую вспышку, которая поджигает порох, генерирующий газы для выталкивания снаряда.\n \n</text>
-    </string>
+	<!-- primer -->
+	<string id="kotji_primer">
+		<text>All Purpose Primer</text>
+	</string>
+	<string id="kotji_primer_box">
+		<text>All Purpose Primer 200 Pcs</text>
+	</string>
+	<string id="kotji_ammo_base_primer_descr">
+		<text>A primer is the small ignition component in the base of a cartridge. Its job is to ignite the propellant (typically smokeless powder) when the firearm is fired.The primer does not provide the main force that launches the bullet. Instead, it creates a small, hot flame that ignites the propellant, which then produces the gases that propel the projectile. \n \n</text>
+	</string>
 
 </string_table>
